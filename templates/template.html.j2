@@ -67,7 +67,7 @@
                        {% elif medium.type == "image" %}
                         <div class="text-center">
                           <div>
-                            <img width="560" src="{{ medium.link }}">
+                            <img width="560" src="{{ medium.link }}" alt="{{ medium.alt }}" title="{{ medium.alt }}">
                           </div>
                           <p>
                             <i>Source : <a href="{{ medium.source_url }}">{{ medium.source_text }}</a></i>

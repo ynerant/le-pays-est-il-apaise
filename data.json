@@ -131,6 +131,7 @@
           {
             "type": "image",
             "link": "https://pbs.twimg.com/media/FuFRRhZXoAI1ge_?format=jpg",
+            "alt": "Emmanuel Fernandes, bâillonné, proche du président Macron.",
             "source_url": "https://twitter.com/EmmanFernandes/status/1648688793258532866",
             "source_text": "Twitter, @Romain_Herreros"
           }
@@ -177,6 +178,16 @@
             "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/3f705cd7-f8a6-46bb-9025-0293a6f3f740/2d8eafd6-551b-402b-b690-3015d17b7f87/main.mp4",
             "source_url": "https://www.bfmtv.com/politique/gouvernement/ce-que-vous-avez-fait-c-est-du-mepris-social-borne-prise-a-partie-lors-d-une-rencontre-avec-des-jeunes_AV-202304190906.html",
             "source_text": "« Ce que vous avez fait, c'est du mépris social »: Borne prise à partie lors d'une rencontre avec des jeunes, BFMTV"
+          }
+        ]
+      },
+      {
+        "description": "Course du quinté retardée par la CGT, fort préjudice financier",
+        "media": [
+          {
+            "type": "link",
+            "link": "https://www.ouest-france.fr/pays-de-la-loire/pontchateau-44160/pontchateau-reforme-des-retraites-le-quinte-retarde-par-la-cgt-9845a728-deb1-11ed-8876-51122d90141b",
+            "text": "Le Quinté retardé par des manifestants à Pontchâteau, Ouest France"
           }
         ]
       }
@@ -237,6 +248,17 @@
             "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/8393156a-37a9-4229-9b80-705529eb3c66/60eae314-5ae3-4be4-9099-67e8b04664de/main.mp4",
             "source_url": "https://www.bfmtv.com/politique/elysee/emmanuel-macron-la-democratie-c-est-dire-ce-qu-on-va-faire-et-faire-ce-qu-on-a-dit_VN-202304200666.html",
             "source_text": "Emmanuel Macron: « La démocratie, c'est dire ce qu'on va faire et faire ce qu'on a dit », BFMTV"
+          }
+        ]
+      },
+      {
+        "description": "La Bourse européenne de Paris à La Défense envahie par des manifestant⋅es",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/e31340ae-2e54-4a7e-a830-74f43a0c8c47/c6ba5d39-7815-4e1f-9dd6-9030bae12083/main.mp4",
+            "source_url": "https://www.bfmtv.com/paris/retraites-des-manifestants-investissent-brievement-le-batiment-d-euronext-a-la-defense_AN-202304200507.html",
+            "source_text": "Des manifestant⋅es investissent brièvement le bâtiment d'Euronext à la Défense, BFMTV"
           }
         ]
       }
