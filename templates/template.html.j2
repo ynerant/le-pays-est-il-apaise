@@ -44,15 +44,21 @@
                         <p>
                           <a href="{{ medium.text }}">{{ medium.text }}</a>
                         </p>
-                      {% elif medium.type == "youtube" %}
+                       {% elif medium.type == "image" %}
                         <div class="text-center">
-                          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ medium.code }}?start={{ medium.start|default(0) }}" title="Allocution du président de la République du 17 avril 2023" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                          <div>
+                            <img width="560" src="{{ medium.link }}">
+                          </div>
+                          <p>
+                            <i>Source : <a href="{{ medium.source_url }}">{{ medium.source_text }}</a></i>
+                          </p>
                         </div>
+
                       {% elif medium.type == "video" %}
                         <div class="text-center">
                           <div>
                             <video controls width="560" height="315">
-                              <source src="{{ medium.link }}{% if medium.start %}#t={{ medium.start }}{% if medium.end %},{{ medium.end }}{% endif %}{% endif %}">
+                              <source src="{{ medium.link }}{% if medium.start %}#t={{ medium.start }}{% if medium.end %},{{ medium.end }}{% endif %}{% endif %}" type="video/mp4">
                               {% if medium.subtitles_file %}
                                 <track label="Français" kind="subtitles" srclang="fr" src="subtitles/{{ medium.subtitles_file }}" default>
                               {% endif %}
@@ -61,6 +67,10 @@
                           <p>
                             <i>Source : <a href="{{ medium.source_url }}">{{ medium.source_text }}</a></i>
                           </p>
+                        </div>
+                      {% elif medium.type == "youtube" %}
+                        <div class="text-center">
+                          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ medium.code }}?start={{ medium.start|default(0) }}" title="Allocution du président de la République du 17 avril 2023" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                         </div>
                     {% endif %}
                     </div>

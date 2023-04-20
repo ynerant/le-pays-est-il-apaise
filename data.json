@@ -62,16 +62,64 @@
     "subtitle": "L'Alsace se rebelle",
     "events": [
       {
-        "description": "Macron hué à Muttersholtz et à Sélestat.",
-        "media": []
+        "description": "Emmanuel Macron hué lors de son déplacement à Muttersholtz et à Sélestat.",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://videos.files.wordpress.com/1MHJzePX/whatsapp-video-2023-04-19-at-11.08.53.mp4",
+            "source_url": "https://www.rue89strasbourg.com/emmanuel-macron-alsace-manifestant-hue-selestat-muttersholtz-263011",
+            "source_text": "Malgré un important dispositif policier, Emmanuel Macron copieusement hué à Sélestat et Muttersholtz, Rue89 Strasbourg"
+          },
+          {
+            "type": "video",
+            "link": "https://www.rue89strasbourg.com/wp-content/uploads/2023/04/whatsapp-video-2023-04-19-at-13.33.52.mp4",
+            "source_url": "https://www.rue89strasbourg.com/emmanuel-macron-alsace-manifestant-hue-selestat-muttersholtz-263011",
+            "source_text": "Malgré un important dispositif policier, Emmanuel Macron copieusement hué à Sélestat et Muttersholtz, Rue89 Strasbourg"
+          },
+          {
+            "type": "video",
+            "link": "https://videos.files.wordpress.com/eGaRtUhb/whatsapp-video-2023-04-19-at-14.10.50.mp4",
+            "source_url": "https://www.rue89strasbourg.com/emmanuel-macron-alsace-manifestant-hue-selestat-muttersholtz-263011",
+            "source_text": "Malgré un important dispositif policier, Emmanuel Macron copieusement hué à Sélestat et Muttersholtz, Rue89 Strasbourg"
+          },
+          {
+            "type": "video",
+            "link": "https://videos.files.wordpress.com/yoZojnu8/whatsapp-video-2023-04-19-at-15.48.58.mp4",
+            "source_url": "https://www.rue89strasbourg.com/emmanuel-macron-alsace-manifestant-hue-selestat-muttersholtz-263011",
+            "source_text": "Malgré un important dispositif policier, Emmanuel Macron copieusement hué à Sélestat et Muttersholtz, Rue89 Strasbourg"
+          },
+          {
+            "type": "link",
+            "link": "https://www.rue89strasbourg.com/en-alsace-emmanuel-macron-prend-la-colere-en-pleine-figure-263234",
+            "text": "En Alsace, Emmanuel Macron prend la colère en pleine figure, Rue89 Strasbourg"
+          },
+          {
+            "type": "link",
+            "link": "https://www.mediapart.fr/journal/politique/200423/en-alsace-emmanuel-macron-prend-la-colere-en-pleine-figure",
+            "text": "En Alsace, Emmanuel Macron prend la colère en pleine figure, Mediapart"
+          }
+        ]
       },
       {
         "description": "Le député LFI Emmanuel Fernandes baîlloné par le 49§3 devant Macron.",
-        "media": []
+        "media": [
+          {
+            "type": "image",
+            "link": "https://pbs.twimg.com/media/FuFRRhZXoAI1ge_?format=jpg",
+            "source_url": "https://twitter.com/EmmanFernandes/status/1648688793258532866",
+            "source_text": "Twitter, @Romain_Herreros"
+          }
+        ]
       },
       {
-        "description": "La nouvelle devise du pays selon Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès",
-        "media": []
+        "description": "La nouvelle devise du pays selon Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès »",
+        "media": [
+          {
+            "type": "youtube",
+            "code": "dGA6xV9pM9g",
+            "start": "68"
+          }
+        ]
       }
     ]
   },
