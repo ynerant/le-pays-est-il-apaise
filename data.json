@@ -1,7 +1,7 @@
 [
   {
     "index": 0,
-    "subtitle": "Allocution présidentielle",
+    "subtitle": "Allocution présidentielle et rencontre avec des fachos",
     "events": [
       {
         "description": "Emmanuel Macron s'exprime à 20h devant les Français⋅es. Il fixe un cap de 100 jours pour appaiser le pays.",
@@ -32,33 +32,46 @@
   },
   {
     "index": 1,
-    "subtitle": "La faute aux Maghrébin⋅es",
+    "subtitle": "Les aides sociales renvoyées au Maghreb",
     "events": [
       {
-        "description": "Bruno Le Maire affirme que l'argent de l'État part au Maghreb.",
-        "url": null,
-        "image": null
+        "description": "Bruno Le Maire estime que « Les Français⋅es en ont légitement ras-le-bol […] de voir que des personnes qui peuvent toucher des aides qu'iels paient elleux-même […] et les renvoyer au Maghreb ou ailleurs alors qu'iles n'y ont pas droit ».",
+         "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/4805adbc-e458-4e9c-95d2-c1be1609607f/2fbad444-a28d-45a9-9150-9ba832d36647/main.mp4",
+            "subtitles_link": "https://bcboltnexti1-a.akamaihd.net/media/v1/dash/live/clear/876450610001/4805adbc-e458-4e9c-95d2-c1be1609607f/a85dfde4-7199-4ae9-93b1-cebf4c9739ff.vtt",
+            "subtitles_file": "2023-04-18-BFMTV.vtt",
+            "start": "00:07:58",
+            "end": "00:08:31",
+            "source_text": "Face-à-Face : Bruno Le Maire - 18/04, BFMTV",
+            "source_url": "https://www.bfmtv.com/replay-emissions/l-interview/face-a-face-bruno-le-maire-18-04_VN-202304180186.html"
+          },
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/1893e56e-cda4-4054-bf95-4bfdad8b9c81/7d1e9809-ea15-4296-a06a-17dc300bda4f/main.mp4",
+            "source_text": "Olivier Dussopt : « La fraude est une question importante, sur laquelle nous devons consacrer beaucoup d'énergie et beaucoup de moyens », BFMTV",
+            "source_url": "https://www.bfmtv.com/politique/olivier-dussopt-la-fraude-est-une-question-importante-sur-laquelle-nous-devons-consacrer-beaucoup-d-energie-et-beaucoup-de-moyens_VN-202304180500.html"
+          }
+        ]
       }
     ]
   },
   {
     "index": 2,
-    "subtitle": "L'Alsace se rebèle",
+    "subtitle": "L'Alsace se rebelle",
     "events": [
       {
         "description": "Macron hué à Muttersholtz et à Sélestat.",
-        "url": null,
-        "image": null
+        "media": []
       },
       {
         "description": "Le député LFI Emmanuel Fernandes baîlloné par le 49§3 devant Macron.",
-        "url": null,
-        "image": null
+        "media": []
       },
       {
         "description": "La nouvelle devise du pays selon Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès",
-        "url": null,
-        "image": null
+        "media": []
       }
     ]
   },
@@ -68,13 +81,11 @@
     "events": [
       {
         "description": "La préfecture de l'Hérault interdit le port d'objets sonores portatifs.",
-        "url": null,
-        "image": null
+        "media": []
       },
       {
         "description": "Le député LFI Sébastien Rome remet à Macron un livre sur la Résistance dans la région",
-        "image": null,
-        "url": null
+        "media": []
       }
     ]
   }

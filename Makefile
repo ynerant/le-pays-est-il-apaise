@@ -3,7 +3,7 @@ generate:
 	cp static/* output/
 
 clean:
-	rm output/*
+	rm -r output/*
 
 install:
 	rsync -arvP --delete-after output/ proxy.adm.ynerant.fr:/var/www/apaisement/
