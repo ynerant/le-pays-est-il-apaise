@@ -126,6 +126,17 @@
         ]
       },
       {
+        "description": "L'électricité a été coupée à l'usine Mathis par la CGT, lors de la visite du président.",
+        "media": [
+          {
+            "type": "image",
+            "link": "https://pbs.twimg.com/media/FuE30TyWwAIdZhi?format=jpg",
+            "source_url": "https://twitter.com/EmmanFernandes/status/1648660777568546818",
+            "source_text": "Twitter, @EmmanFernandes"
+          }
+        ]
+      },
+      {
         "description": "Le député LFI Emmanuel Fernandes baîlloné par le 49§3 devant Macron.",
         "media": [
           {
@@ -215,6 +226,16 @@
             "type": "link",
             "link": "https://www.herault.gouv.fr/contenu/telechargement/45852/345658/file/Recueil%20sp%C3%A9cial%20n%C2%B056%20du%2019%20avril%202023.pdf",
             "text": "Arrêté préfectoral n° 2023.04.DS.0187 du 19 avril 2023 instaurant un périmètre de protection sur le département de l’Hérault à l’occasion de la visite officielle du président de la République le 20 avril 2023"
+          }
+        ]
+      },
+      {
+        "description": "Comme la veille, la CGT coupe le courant à l'aéroport de Montpellier où devait atterrir Emmanuel Macron, ainsi que dans le collège Louise-Michel de Ganges où il était attendu.",
+        "media": [
+          {
+            "type": "link",
+            "link": "https://www.laprovence.com/actu/en-direct/3711837408417715/la-cgt-coupe-le-courant-du-college-visite-par-macron-dans-lherault",
+            "text": "La CGT coupe le courant du collège visité par Macron dans l'Hérault, La Provence"
           }
         ]
       },
