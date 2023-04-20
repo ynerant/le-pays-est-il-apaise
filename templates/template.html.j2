@@ -12,19 +12,37 @@
 
 <body>
   <main class="container">
-  <h1>Le pays est-il apaisé ? <span class="text-danger fw-bold">NON</span></h1>
+  <div class="text-center">
+    <h1>Le pays est-il apaisé ?</h1>
+    {% if current_day < 100 %}
+      <h2 class="text-danger fw-bold">NON</h2>
+    {% else %}
+      <h2 class="text-warning">Normalement oui, si on pense le contraire c'est qu'on a mal observé</h2>
+    {% endif %}
+    <h2>Temps restant :</h2>
+    <h3 id="remaining-time">
+      <noscript>JavaScript n'est pas activé, le compte-à-rebours n'est pas accessible.</noscript>
+    </h3>
 
-  <div class="progress" role="progressbar" aria-label="Progression de l'apaisement" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100">
-    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 3%"></div>
+    <div class="row">
+      <div class="col-md-1 text-center">
+        17/04/2023
+      </div>
+      <div class="col-md-10">
+        <div class="progress" role="progressbar" aria-label="Progression de l'apaisement" aria-valuenow="{{ current_day }}" aria-valuemin="0" aria-valuemax="100">
+          <div id="progress-bar" class="progress-bar progress-bar-striped progress-bar-animated {% if current_day < 50 %}bg-danger{% elif current_day < 75 %}bg-warning{% elif current_day < 100 %}bg-info{% else %}bg-success{% endif %}" style="width: {{ current_day }}%"></div>
+        </div>
+      </div>
+      <div class="col-md-1 text-center">
+        26/07/2023
+      </div>
+    </div>
+
+    <h4>Jour {{ current_day }}/100</h4>
   </div>
 
-  Jour 3/100
 
-  <div class="alert alert-warning">
-    Cette page est en construction, et a vocation à documenter l'ensemble des étapes de l'apaisement.
-  </div>
-
-  <div class="accordion" id="accordionSteps">
+  <div class="accordion my-5" id="accordionSteps">
     {% for day in data %}
       <div class="accordion-item">
         <h2 class="accordion-header">
@@ -95,8 +113,59 @@
         </div>
       </div>
     {% endfor %}
+  </div>
+
+  <div class="alert alert-info">
+    À venir : une carte de l'ensemble des déplacements et rassemblements.
+  </div>
   </main>
 </body>
 
 <script src="theme.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    let baseDate = new Date("2023-04-17 20:00:00+0200")
+    let baseDateDay = new Date("2023-04-17 00:00:00+0200")
+    let endDate = new Date("2023-07-26 20:00:00+0200")
+    let totalTime = 8640000  // 100 days in seconds
+    let counterText = document.getElementById("remaining-time")
+    let counterBar = document.getElementById("progress-bar")
+    let counterBarDiv = counterBar.parentNode
+
+    function updateCounter() {
+      let now = new Date()
+      let elapsedTime = Math.floor((now - baseDate) / 1000)
+      let dayNumber = Math.floor((now - baseDateDay) / 86400000)
+      let remainingTime = Math.floor((endDate - now) / 1000)
+
+      let days = Math.floor(remainingTime / 86400)
+      remainingTime %= 86400
+
+      let hours = Math.floor(remainingTime / 3600)
+      remainingTime %= 3600
+
+      let minutes = Math.floor(remainingTime / 60)
+      let seconds = remainingTime % 60
+
+      var text = ""
+      if (days > 0)
+        text += `${days} jour${days > 1 ? 's' : ''}, `
+      if (hours > 0)
+        text += `${hours} heure${hours > 1 ? 's' : ''}, `
+      if (minutes > 0)
+        text += `${minutes} minute${minutes > 1 ? 's' : ''}, `
+      if (seconds > 0)
+        text += `${seconds} seconde${seconds > 1 ? 's' : ''}, `
+      text = text.substr(0, text.length - 2)
+      counterText.innerText = text
+
+      let percent = 100 * elapsedTime / totalTime
+      counterBar.style.width = `${percent}%`
+      counterBarDiv.setAttribute('aria-valuenow', `${dayNumber}`)
+    }
+
+    setInterval(updateCounter, 1000)
+    updateCounter()
+  })
+</script>
 </html>

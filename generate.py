@@ -40,7 +40,7 @@ def generate():
     template = env.get_template("template.html.j2")
 
     with open('output/index.html', 'w') as f:
-        f.write(template.render(data=data))
+        f.write(template.render(data=data, current_day=(date.today() - BASE_DATE).days))
 
 
 if __name__ == '__main__':
