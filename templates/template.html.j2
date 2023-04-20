@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Le pays est-il apaisé ?</title>
+  <meta name="description" content="Documentation de l'apaisement du pays en 100 jours comme promis par Emmanuel Macron">
+
+  <!-- TODO Replace with local assets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <main class="container">
+  <h1>Le pays est-il apaisé ? <span class="text-danger fw-bold">NON</span></h1>
+
+  <div class="progress" role="progressbar" aria-label="Progression de l'apaisement" aria-valuenow="3" aria-valuemin="0" aria-valuemax="100">
+    <div class="progress-bar progress-bar-striped progress-bar-animated bg-danger" style="width: 3%"></div>
+  </div>
+
+  Jour 3/100
+
+  <div class="alert alert-warning">
+    Cette page est en construction, et a vocation à documenter l'ensemble des étapes de l'apaisement.
+  </div>
+
+  <div class="accordion" id="accordionSteps">
+    {% for day in data %}
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse{{ day.index }}" aria-expanded="false" aria-controls="collapse{{ day.index }}">
+            Jour {{ day.index }} : {{ day.index | to_date }} — {{ day.subtitle }}
+          </button>
+        </h2>
+        <div id="collapse{{ day.index }}" class="accordion-collapse collapse" data-bs-parent="#accordionSteps">
+          <div class="accordion-body">
+            <ul class="list-group list-group-flush">
+              {% for event in day.events %}
+                <li class="list-group-item">
+                  <h5>{{ event.description }}</h5>
+                  {% for medium in event.media %}
+                    <div>
+                      {% if medium.type == "link" %}
+                        <p>
+                          <a href="{{ medium.text }}">{{ medium.text }}</a>
+                        </p>
+                      {% elif medium.type == "youtube" %}
+                        <div class="text-center">
+                          <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{{ medium.code }}" title="Allocution du président de la République du 17 avril 2023" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                      {% elif medium.type == "video" %}
+                        <div class="text-center">
+                          <div>
+                            <video controls width="560" height="315">
+                              <source src="{{ medium.link }}">
+                            </video>
+                          </div>
+                          <p>
+                            <i>Source : <a href="{{ medium.source_url }}">{{ medium.source_text }}</a></i>
+                          </p>
+                        </div>
+                    {% endif %}
+                    </div>
+                  {% endfor %}
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </main>
+</body>
+
+<script src="theme.js"></script>
+</html>

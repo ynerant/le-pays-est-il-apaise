@@ -1,0 +1,81 @@
+[
+  {
+    "index": 0,
+    "subtitle": "Allocution présidentielle",
+    "events": [
+      {
+        "description": "Emmanuel Macron s'exprime à 20h devant les Français⋅es. Il fixe un cap de 100 jours pour appaiser le pays.",
+        "media": [
+          {
+            "type": "youtube",
+            "code": "AJCXYPNkqX8"
+          }
+        ]
+      },
+      {
+        "description": "Emmanuel Macron chante des chants pyrénéens avec une association d'extrême droite à Paris. Cette association avait été financée à hauteur de 40 000 € par le Ministère de la Culture.",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://video.twimg.com/ext_tw_video/1648244643618750465/pu/vid/1280x720/zbBImqSU23HYIdXy.mp4",
+            "source_text": "Twitter, @NicolasBoutin11",
+            "source_url": "https://twitter.com/NicolasBoutin11/status/1648245356042256384"
+          },
+          {
+            "type": "link",
+            "link": "https://www.liberation.fr/checknews/emmanuel-macron-a-t-il-chante-dans-la-rue-avec-une-asso-proche-de-lultradroite-apres-son-allocution-televisee-20230418_TPTXITMBIJE23ANEFEQCSCVLAM/",
+            "text": "CheckNews : Emmanuel Macron a-t-il chanté dans la rue avec une asso proche de l’ultradroite après son allocution télévisée ?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 1,
+    "subtitle": "La faute aux Maghrébin⋅es",
+    "events": [
+      {
+        "description": "Bruno Le Maire affirme que l'argent de l'État part au Maghreb.",
+        "url": null,
+        "image": null
+      }
+    ]
+  },
+  {
+    "index": 2,
+    "subtitle": "L'Alsace se rebèle",
+    "events": [
+      {
+        "description": "Macron hué à Muttersholtz et à Sélestat.",
+        "url": null,
+        "image": null
+      },
+      {
+        "description": "Le député LFI Emmanuel Fernandes baîlloné par le 49§3 devant Macron.",
+        "url": null,
+        "image": null
+      },
+      {
+        "description": "La nouvelle devise du pays selon Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès",
+        "url": null,
+        "image": null
+      }
+    ]
+  },
+  {
+    "index": 3,
+    "subtitle": "Les casseroles classifiées comme armes",
+    "events": [
+      {
+        "description": "La préfecture de l'Hérault interdit le port d'objets sonores portatifs.",
+        "url": null,
+        "image": null
+      },
+      {
+        "description": "Le député LFI Sébastien Rome remet à Macron un livre sur la Résistance dans la région",
+        "image": null,
+        "url": null
+      }
+    ]
+  }
+]
