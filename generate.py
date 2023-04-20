@@ -24,6 +24,12 @@ def generate():
     with open('data.json') as f:
         data = json.load(f)
 
+    with open('deplacements.json') as f:
+        movings = json.load(f)
+
+    with open('departement_shapes.json') as f:
+        shapes = json.load(f)
+
     for day in data:
         for event in day['events']:
             for medium in event['media']:
@@ -41,6 +47,11 @@ def generate():
 
     with open('output/index.html', 'w') as f:
         f.write(template.render(data=data, current_day=(date.today() - BASE_DATE).days))
+
+    svg_template = env.get_template("France_departements.svg.j2")
+
+    with open('output/France_departements.svg', 'w') as f:
+        f.write(svg_template.render(data=data, departement_shapes=shapes, apaisement=movings, today=date.today()))
 
 
 if __name__ == '__main__':
