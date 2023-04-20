@@ -8,7 +8,8 @@
         "media": [
           {
             "type": "youtube",
-            "code": "AJCXYPNkqX8"
+            "code": "AJCXYPNkqX8",
+            "text": "Allocution du président de la République"
           }
         ]
       },
@@ -52,6 +53,22 @@
             "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/1893e56e-cda4-4054-bf95-4bfdad8b9c81/7d1e9809-ea15-4296-a06a-17dc300bda4f/main.mp4",
             "source_text": "Olivier Dussopt : « La fraude est une question importante, sur laquelle nous devons consacrer beaucoup d'énergie et beaucoup de moyens », BFMTV",
             "source_url": "https://www.bfmtv.com/politique/olivier-dussopt-la-fraude-est-une-question-importante-sur-laquelle-nous-devons-consacrer-beaucoup-d-energie-et-beaucoup-de-moyens_VN-202304180500.html"
+          },
+          {
+            "type": "youtube",
+            "code": "OJv_egnDfxw",
+            "start": "299",
+            "text": "Darmanin demandant un nouvel effort aux personnes au RSA"
+          }
+        ]
+      },
+      {
+        "description": "L’abandon de poste ne donne plus droit au chômage, nouveau coup contre les précaires",
+        "media": [
+          {
+            "type": "link",
+            "link": "https://www.lemonde.fr/societe/article/2023/04/18/l-abandon-de-poste-ne-donne-plus-droit-au-chomage_6170043_3224.html",
+            "text": "L’abandon de poste ne donne plus droit au chômage, Le Monde avec AFP"
           }
         ]
       }
@@ -112,12 +129,35 @@
         ]
       },
       {
-        "description": "La nouvelle devise du pays selon Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès »",
+        "description": "Emmanuel Macron déçu de ne pas pouvoir asseoir son pouvoir autoritaire",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/0a325dc7-44f6-4a04-98b1-ca1ca00bc919/bb355c8b-bbae-407b-a179-0840e2c385a0/main.mp4",
+            "source_url": "https://www.bfmtv.com/politique/emmanuel-macron-il-y-a-des-tas-de-gens-qui-ne-se-remettent-pas-de-ne-pas-avoir-gagne-l-election-presidentielle_VN-202304190693.html",
+            "source_text": "Emmanuel Macron: « Il y a des tas de gens qui ne se remettent pas de ne pas avoir gagné l'élection présidentielle », BFMTV"
+          }
+        ]
+      },
+      {
+        "description": "Emmanuel Macron considère être en CDD de 5 ans non révocables et indiscutables",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/e739dd4a-10de-4188-827a-c60f85bda687/7373d30a-4183-42dc-95c9-2b42b42ff753/main.mp4",
+            "source_url": "https://www.bfmtv.com/politique/elysee/emmanuel-macron-j-ai-un-cdd-jusqu-en-2027_VN-202304190705.html",
+            "source_text": "Emmanuel Macron: « J'ai un CDD jusqu'en 2027 », BFMTV"
+          }
+        ]
+      },
+      {
+        "description": "La nouvelle devise du pays selon Olivier Véran : « Travail, <s>Famille, Patrie</s> Ordre, Progrès »",
         "media": [
           {
             "type": "youtube",
             "code": "dGA6xV9pM9g",
-            "start": "68"
+            "start": "68",
+            "text": "Conseil des ministres du 18 avril, Olivier Véran présentant le nouveau cap"
           }
         ]
       }
@@ -129,11 +169,57 @@
     "events": [
       {
         "description": "La préfecture de l'Hérault interdit le port d'objets sonores portatifs.",
-        "media": []
+        "media": [
+          {
+            "type": "video",
+            "link": "https://video.twimg.com/ext_tw_video/1648957917742202881/pu/vid/720x1280/z6th_zWpvTabgcxa.mp4",
+            "source_url": "https://twitter.com/PaulLarrouturou/status/1648958030497579010",
+            "source_text": "Twitter, @PaulLarrouturou"
+          },
+          {
+            "type": "link",
+            "link": "https://france3-regions.francetvinfo.fr/occitanie/herault/montpellier/emmanuel-macron-dans-l-herault-casseroles-interdites-ou-pas-cet-arrete-de-la-prefecture-sur-les-dispositifs-sonores-portatifs-qui-fait-polemique-2757662.html",
+            "text": "Emmanuel Macron dans l'Hérault : casseroles interdites ou pas, cet arrêté de la préfecture sur les « dispositifs sonores portatifs » qui fait polémique, France 3 Occitanie"
+          },
+          {
+            "type": "link",
+            "link": "https://www.herault.gouv.fr/contenu/telechargement/45852/345658/file/Recueil%20sp%C3%A9cial%20n%C2%B056%20du%2019%20avril%202023.pdf",
+            "text": "Arrêté préfectoral n° 2023.04.DS.0187 du 19 avril 2023 instaurant un périmètre de protection sur le département de l’Hérault à l’occasion de la visite officielle du président de la République le 20 avril 2023"
+          }
+        ]
       },
       {
-        "description": "Le député LFI Sébastien Rome remet à Macron un livre sur la Résistance dans la région",
-        "media": []
+        "description": "Le député LFI Sébastien Rome remet à Macron un livre sur la Résistance dans la région. Celui-ci répond : « Les œufs et les casseroles, c'est fait pour faire la cuisine »",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://video.twimg.com/ext_tw_video/1648990669833158657/pu/vid/544x302/rv2LPGuVMtADrSfz.mp4",
+            "source_url": "https://twitter.com/SebRome/status/1648990749466165248",
+            "source_text": "Twitter, @SebRome"
+          }
+        ]
+      },
+      {
+        "description": "Nouveau comité d'accueil pour Emmanuel Macron à Ganges, dans l'Hérault",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/0540ebd0-6b21-45df-bee7-08ee6ce43c91/c4c8b4d3-095b-4199-97d6-4aea3de9e62a/main.mp4",
+            "source_url": "https://www.bfmtv.com/politique/elysee/deplacement-de-macron-dans-l-herault-un-arrete-interdit-les-dispositifs-sonores-portatifs_AN-202304200442.html",
+            "source_text": "Déplacement de Macron dans l'Hérault: un arrêté interdit les « dispositifs sonores portatifs », BFMTV"
+          }
+        ]
+      },
+      {
+        "description": "« La démocratie, c'est faire comme j'ai dit »",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/8393156a-37a9-4229-9b80-705529eb3c66/60eae314-5ae3-4be4-9099-67e8b04664de/main.mp4",
+            "source_url": "https://www.bfmtv.com/politique/elysee/emmanuel-macron-la-democratie-c-est-dire-ce-qu-on-va-faire-et-faire-ce-qu-on-a-dit_VN-202304200666.html",
+            "source_text": "Emmanuel Macron: « La démocratie, c'est dire ce qu'on va faire et faire ce qu'on a dit », BFMTV"
+          }
+        ]
       }
     ]
   }
