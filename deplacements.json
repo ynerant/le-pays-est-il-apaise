@@ -1,16 +1,309 @@
 {
-  "67": [
-    {
-      "date": "2023-04-19",
-      "day_number": 2,
-      "description": "Emmanuel Macron en déplacement Muttersholtz et à Sélestat dans le Bas-Rhin pour parler Jeux Olympiques"
-    }
-  ],
-  "34": [
-    {
-      "date": "2023-04-20",
-      "day_number": 3,
-      "description": "Emmanuel Macron en déplacement à Ganges en Hérault pour parler éducation"
-    }
-  ]
+  "05": {
+    "title": "Déplacements dans les Hautes-Alpes",
+    "moves": [
+      {
+        "day_number": 11,
+        "description": "Marc Fesneau sera à Gap au salon de l’élevage."
+      }
+    ]
+  },
+  "14": {
+    "title": "Déplacements dans le Calvados",
+    "moves": [
+      {
+        "day_number": 5,
+        "description": " Mobilisation à Caen à 11h place Bouchard contre la venue de la caravane SNU."
+      }
+    ]
+  },
+  "21": {
+    "title": "Déplacements en Côte d'Or",
+    "moves": [
+      {
+        "day_number": 3,
+        "cancelled": true,
+        "description": "Annulation de la venue d’Agnès Firmin Le Bodo à la conférence sur le thème de la fin de vie à Dijon à la salle Devosges"
+      }
+    ]
+  },
+  "25": {
+    "title": "Déplacements dans le Doubs",
+    "moves":
+    [
+      {
+        "day_number": 4,
+        "description": "Venue du ministre des armées Sébastien Lecornu à 17h rue Max Vuillemain à Besançon"
+      }
+    ]
+  },
+  "26": {
+    "title": "Déplacements dans la Drôme",
+    "moves": [
+      {
+        "day_number": 3,
+        "cancelled": true,
+        "description": "Annulation de la visite d'Éric Dupond Moretti."
+      },
+      {
+        "day_number": 4,
+        "description": "Venue du ministre chargé de l'industrie Roland Lescure et de la ministre de la transition énergétique Agnès Pannier-Runacher sur le site de la centrale nucléaire du Tricastin."
+      }
+    ]
+  },
+  "28": {
+    "title": "Déplacements en Eure-et-Loir",
+    "moves": [
+      {
+        "day_number": 1,
+        "description": "Comité d'accueil lors de la venue d'Olivier Dussopt pour la mise en œuvre de la réforme des retraites."
+      }
+    ]
+  },
+  "31": {
+    "title": "Déplacements en Haute-Garonne",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": "Annulation de la visite de Carole Grandjean à 11h au lycée hôtelier de Toulouse."
+      }
+    ]
+  },
+  "33": {
+    "title": "Déplacements en Gironde",
+    "moves": [
+      {
+        "day_number": 0,
+        "cancelled": true,
+        "description": "Déplacement annulé de Darmanin et Fesneau à La-Teste-de-Buch sur les moyens dédiés à la lutte contre les incendies"
+      }
+    ]
+  },
+  "34": {
+    "title": "Déplacements dans l'Hérault",
+    "moves": [
+      {
+        "day_number": 3,
+        "description": "Manifestation à la gare de Montpellier Saint-Roch contre la venue d'Emmanuel Macron dans l'Hérault."
+      },
+      {
+        "day_number": 3,
+        "description": "Emmanuel Macron en déplacement à Ganges pour parler éducation."
+      },
+      {
+        "day_number": 3,
+        "description": "Annulation du déplacement prévu d'Emmanuel Macron à Lunel."
+      }
+    ]
+  },
+  "36": {
+    "title": "Déplacements dans l'Indre",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": " Elisabeth Borne en déplacement à Valençay et à Châteauroux."
+      }
+    ]
+  },
+  "39": {
+    "title": "Déplacements dans le Jura",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": "Venue de la ministre à l'égalité hommes-femmes à Lons-le-Saunier. Comité de non-accueil organisé par l'intersyndicale."
+      }
+    ]
+  },
+  "44": {
+    "title": "Déplacements en Loire-Atlantique",
+    "moves": [
+      {
+        "day_number": 2,
+        "cancelled": true,
+        "description": "Le village du SNU de Nantes plie bagage au bout d'1h et Sarah El Haïry renonce à venir faire un discours."
+      },
+      {
+        "day_number": 4,
+        "description": "Olivia Grégoire à la Baule à 8h30 et à Guérande à 9h40."
+      }
+    ]
+  },
+  "47": {
+    "title":"Déplacements dans le Lot-et-Garonne",
+    "moves": [
+      {
+        "day_number": 2,
+        "description": "Casserolade et mise en sobriété énergétique du bar à Agen qui accueillait le ministre de la Transition Numérique Jean-Noël Barrot."
+      }
+    ]
+  },
+  "57": {
+    "title": "Déplacements en Moselle",
+    "moves": [
+      {
+        "day_number": 1,
+        "cancelled": true,
+        "description": "Annulation de la participation de la ministre de la Culture Rima Abdul-Malak à Politéïa, le festival qu’elle avait décidé de marrainer"
+      }
+    ]
+  },
+  "60": {
+    "title": "Déplacements dans l'Oise",
+    "moves": [
+      {
+        "day_number": 0,
+        "cancelled": true,
+        "description": "Jean-Christophe Combe, le ministre des Solidarités, de l’Autonomie et des Personnes Handicapées, ne viendra pas à Chantilly."
+      }
+    ]
+  },
+  "64": {
+    "title": "Déplacements dans les Pyrénées-Atlantiques",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": "Gabriel Attal, repas officiel à la villa St Basil's dans le quartier Trespoey à Pau."
+      }
+    ]
+  },
+  "67": {
+    "title": "Déplacements dans le Bas-Rhin",
+    "moves": [
+      {
+        "day_number": 2,
+        "description": "Emmanuel Macron en déplacement Muttersholtz et à Sélestat dans le Bas-Rhin pour parler Jeux Olympiques"
+      }
+    ]
+  },
+  "71": {
+    "title": "Déplacements en Saône-et-Loire",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": "Visite d'Olivier Dussopt à 9h à l'entreprise Margaritelli à Fontaines."
+      },
+      {
+        "day_number": 4,
+        "description": "Visite d'Olivier Dussopt à l'entreprise Novium à 14h à Montceau les Mines."
+      }
+    ]
+  }, 
+  "72": {
+    "title": "Déplacements dans la Sarthe",
+    "moves": [
+      {
+        "day_number": 2,
+        "description": "Casserolades au Mans et en forêt de Bercé pour accueillir Christophe Béchu."
+      }
+    ]
+  },
+  "80": {
+    "title": "Déplacements dans la Somme",
+    "moves": [
+      {
+        "day_number": 4,
+        "description": "Bruno Le Maire et Christophe Béchu en déplacement à Nesle."
+      }
+    ]
+  },
+  "75": {
+    "title": "Déplacements à Paris",
+    "moves": [
+      {
+        "day_number": 15,
+        "cancelled": true,
+        "description": "Annulation de la visite d’État du président algérien."
+      },
+      {
+        "day_number": 1,
+        "description": " Comité de non accueil pour JC. Combe et G. Darrieussecq en visite à la CAF de Paris."
+      }
+    ]
+  },
+  "77": {
+    "title": "Déplacements en Seine-et-Marne",
+    "moves": [
+      {
+        "day_number": 2,
+        "description": "Comité de non accueil pour la visite de Yaël Braun-Pivet au Centre Social et Culturel de Pontault-Combault."
+      },
+      {
+        "day_number": 12,
+        "description": " Caravane du SNU devant le centre commercial BAY 2 à Torcy."
+      }
+    ]
+  },
+  "78": {
+    "title": "Déplacements dans les Yvelines",
+    "moves": [
+      {
+        "day_number": 3,
+        "description": "Comité de non accueil pour la ministre des sports Amélie Oudéa-Castéra vers l'Arena de Nanterre."
+      },
+      {
+        "day_number": 9,
+        "description": "Caravane du SNU Place Notre-Dame à Versailles."
+      }
+    ]
+  },
+  "83": {
+    "title": "Déplacements dans le Var",
+    "moves": [
+      {
+        "day_number": 10,
+        "cancelled": true,
+        "description": "Le président de la République devait participer à une réunion à Toulon sur le thème du Service national universel (SNU). Il a finalement renoncé à ce projet en raison du contexte social."
+      },
+      {
+        "day_number": 3,
+        "description": "Olivier Véran en visite à Brignolles."
+      }
+    ]
+  },
+  "90": {
+    "title": "Déplacements dans le Territoire de Belfort",
+    "moves": [
+      {
+        "day_number": 3,
+        "description": "Comité de non accueil pour Lecronu au 1er régiment d'artillerie à Bourogne, près de Belfort"
+      },
+      {
+        "day_number": 4,
+        "description": "Visite d'Olivier Becht, le ministre du commerce extérieur et de l'attractivité, à l'usine d'Alstom à Belfort en début d'après-midi"
+      }
+    ]
+  },
+  "91": {
+    "title": "Déplacements dans l'Essonne",
+    "moves": [
+      {
+        "day_number": 1,
+        "cancelled": true,
+        "description": "Sylvie Retailleau annule sa venue à l'Université Paris Saclay où un bâtiment a été mis en sobriété énergétique."
+      }
+    ]
+  },
+  "93": {
+    "title": "Déplacements en Seine-Saint-Denis",
+    "moves": [
+      {
+        "day_number": 4,
+        "cancelled": true,
+        "description": "Annulation de la participation d'Olivier Klein à l’Assemblée Générale Ordinaire de l’ADIL de la Seine-Saint-Denis."
+      },
+      {
+        "day_number": 4,
+        "cancelled": true,
+        "description": "Annulation de la venue du ministre de la santé François Braun à Ville Evrard."
+      },
+      {
+        "day_number": 4,
+        "description": "Venue du ministre de la Santé François Braun à 13h30 au centre médical Cap Horn à Montreuil."
+      },
+      {
+        "day_number": 2,
+        "description": "Casserolades lors de la visite de la ministre Carole Grandjean au CFA des métiers du luxe à Pantin."
+      }
+    ]
+  }
 }

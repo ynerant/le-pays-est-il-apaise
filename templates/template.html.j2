@@ -118,7 +118,13 @@
   </div>
 
   <div class="text-center my-5">
-    <img src="France_departements.svg" class="w-100" alt="Carte des différents rassemblements par département">
+    {% include "France_departements.svg.j2" %}
+    <p>
+      <i>Une autre carte similaire ayant inspiré le jeu de données est disponible sur le site d'<a href="https://france.attac.org/se-mobiliser/retraites-pour-le-droit-a-une-retraite-digne-et-heureuse/article/on-ne-les-lache-pas-la-carte-des-mobilisations">ATTAC</a>.</i>
+    </p>
+    <p>
+      <i>Récupérez la carte au format SVG <a href="France_departements.svg">ici</a>.</i>
+    </p>
   </div>
   </main>
 
@@ -134,6 +140,10 @@
 <script src="theme.js"></script>
 <script>
   document.addEventListener('DOMContentLoaded', () => {
+    // Enable popovers
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl, {html: true}))
+
     let baseDate = new Date("2023-04-17 20:00:00+0200")
     let baseDateDay = new Date("2023-04-17 00:00:00+0200")
     let endDate = new Date("2023-07-26 20:00:00+0200")

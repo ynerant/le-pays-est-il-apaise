@@ -34,9 +34,13 @@ def generate():
         for event in day['events']:
             for medium in event['media']:
                 if 'subtitles_link' in medium:
+                    dest_file = os.path.join('output/subtitles', medium['subtitles_file'])
+                    if os.path.isfile(dest_file):
+                        continue
+
                     req = requests.get(medium['subtitles_link'], stream=True)
 
-                    with open(os.path.join('output/subtitles', medium['subtitles_file']), 'wb') as f:
+                    with open(dest_file, 'wb') as f:
                         for chunk in req.iter_content(chunk_size=1024):
                             if chunk:
                                 f.write(chunk)
@@ -46,12 +50,12 @@ def generate():
     template = env.get_template("template.html.j2")
 
     with open('output/index.html', 'w') as f:
-        f.write(template.render(data=data, current_day=(date.today() - BASE_DATE).days))
+        f.write(template.render(data=data, current_day=(date.today() - BASE_DATE).days, departement_shapes=shapes, apaisement=movings, today=date.today()))
 
     svg_template = env.get_template("France_departements.svg.j2")
 
     with open('output/France_departements.svg', 'w') as f:
-        f.write(svg_template.render(data=data, departement_shapes=shapes, apaisement=movings, today=date.today()))
+        f.write(svg_template.render(data=data, current_day=(date.today() - BASE_DATE).days, departement_shapes=shapes, apaisement=movings, today=date.today(), svg_only=True))
 
 
 if __name__ == '__main__':

@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="587.5" height="550" id="svg2" version="1.0">
   <metadata id="metadata7">
     <rdf:RDF>
@@ -19,7 +18,7 @@
     .dpt-path {
       opacity: 1;
       color: #000000;
-      fill: #ff0000;
+      fill: #aaaaff;
       fill-opacity: 1;
       fill-rule: evenodd;
       stroke: #5d5d5d;
@@ -40,11 +39,15 @@
     }
 
     .dpt-apaise {
-      fill: #00ff00;
+      fill: #55ff55;
     }
 
     .dpt-prevu {
       fill: #ffa500;
+    }
+
+    .dpt-cancelled {
+      fill: #aa1111;
     }
 
     .pref-path {
@@ -106,7 +109,10 @@
 
   <g inkscape:groupmode="layer" id="layer10" inkscape:label="Département" style="display:inline">
     {% for dpt, path in departement_shapes.items() %}
-      <path id="departement{{ dpt }}" class="{% if dpt in apaisement %}dpt-apaise {% endif %}dpt-path" d="{{ path }}" {% if dpt in apaisement %}title="{% for mvmt in apaisement[dpt] %}Le {{ mvmt.date }} : {{ mvmt.description }}{% endfor %}"{% endif %}/>
+      <path id="departement{{ dpt }}"
+            class="{% if dpt in apaisement %}{% for mvmt in apaisement[dpt].moves %}{% if mvmt.cancelled %}dpt-cancelled{% elif mvmt.day_number < current_day %}dpt-apaise{% else %}dpt-prevu{% endif %} {% endfor %}{% endif %}dpt-path"
+            d="{{ path }}"
+            {% if dpt in apaisement and not svg_only %}data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-container="body" data-bs-title="{{ apaisement[dpt].title }}" data-bs-content="<ul class='list-group list-group-flush'>{% for mvmt in apaisement[dpt].moves %}<li class='list-group-item'>Le {{ mvmt.day_number|to_date }} : {{ mvmt.description }}</li>{% endfor %}</ul>"{% endif %}/>
     {% endfor %}
   </g>
   <g inkscape:groupmode="layer" id="layer4" inkscape:label="Préfecture" style="display:inline">
@@ -202,8 +208,6 @@
     <path sodipodi:type="arc" class="pref-path" id="path2401" sodipodi:cx="536.13281" sodipodi:cy="521.3075" sodipodi:rx="2.34375" sodipodi:ry="2.34375" d="M 538.47656 521.3075 A 2.34375 2.34375 0 1 1  533.78906,521.3075 A 2.34375 2.34375 0 1 1  538.47656 521.3075 z" transform="translate(-159.411,-245.8166)"/>
     <path sodipodi:type="arc" class="pref-path" id="path2403" sodipodi:cx="536.13281" sodipodi:cy="521.3075" sodipodi:rx="2.34375" sodipodi:ry="2.34375" d="M 538.47656 521.3075 A 2.34375 2.34375 0 1 1  533.78906,521.3075 A 2.34375 2.34375 0 1 1  538.47656 521.3075 z" transform="translate(-143.6668,-240.0162)"/>
     <path sodipodi:type="arc" class="pref-path" id="path2405" sodipodi:cx="536.13281" sodipodi:cy="521.3075" sodipodi:rx="2.34375" sodipodi:ry="2.34375" d="M 538.47656 521.3075 A 2.34375 2.34375 0 1 1  533.78906,521.3075 A 2.34375 2.34375 0 1 1  538.47656 521.3075 z" transform="translate(-107.4828,-225.1006)"/>
-    <path sodipodi:type="star" style="opacity:1;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" id="path17914" sodipodi:sides="5" sodipodi:cx="279.53775" sodipodi:cy="131.12292" sodipodi:r1="4.1226993" sodipodi:r2="1.4242409" sodipodi:arg1="0.93901779" sodipodi:arg2="1.5258971" inkscape:flatsided="false" inkscape:rounded="0" inkscape:randomized="0" d="M 281.97254,134.44985 L 279.60168,132.54573 L 277.12604,134.46662 L 278.20434,131.62339 L 275.61245,129.86251 L 278.64973,130.00943 L 279.52349,127.00025 L 280.32234,129.93428 L 283.45424,129.83538 L 280.91067,131.5018 L 281.97254,134.44985 z " transform="translate(0.462561,0.759965)"/>
-    <path sodipodi:type="arc" style="opacity:1;color:#000000;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:0.43383271;stroke-linecap:round;stroke-linejoin:round;marker:none;marker-start:none;marker-mid:none;marker-end:none;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;visibility:visible;display:inline;overflow:visible" id="path17916" sodipodi:cx="275.44052" sodipodi:cy="126.13353" sodipodi:rx="3.8329053" sodipodi:ry="3.8329053" d="M 279.27343 126.13353 A 3.8329053 3.8329053 0 1 1  271.60762,126.13353 A 3.8329053 3.8329053 0 1 1  279.27343 126.13353 z" transform="matrix(1.152518,0,0,1.152518,-37.38373,-13.52132)"/>
   </g>
   
   
