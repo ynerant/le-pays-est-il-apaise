@@ -12,6 +12,11 @@
     "title": "Déplacements dans le Calvados",
     "moves": [
       {
+        "day_number": 4,
+        "cancelled": true,
+        "description": "Freddy Sertin et suppléant d'Élisabeth Borne ont annulé leur déplacement dans leur permanence à Maltot."
+      },
+      {
         "day_number": 5,
         "description": " Mobilisation à Caen à 11h place Bouchard contre la venue de la caravane SNU."
       }
@@ -76,6 +81,10 @@
         "day_number": 0,
         "cancelled": true,
         "description": "Déplacement annulé de Darmanin et Fesneau à La-Teste-de-Buch sur les moyens dédiés à la lutte contre les incendies"
+      },
+      {
+        "day_number": 0,
+        "description": "Déplacement de François Braun, ministre de la santé, au centre hospitalier Sud-Gironde de Langon."
       }
     ]
   },
@@ -175,6 +184,15 @@
       }
     ]
   },
+  "70": {
+    "title": "Déplacements en Haute-Saône",
+    "moves": [
+      {
+        "day_number": 11,
+        "description": " Christophe Béchu, ministre de la transition écologique, attendu à Vesoul pour l'assemblée générale de l'association des maires de France du département."
+      }
+    ]
+  },
   "71": {
     "title": "Déplacements en Saône-et-Loire",
     "moves": [
@@ -257,6 +275,15 @@
       {
         "day_number": 3,
         "description": "Olivier Véran en visite à Brignolles."
+      }
+    ]
+  },
+  "86": {
+    "title": "Déplacements dans la Vienne",
+    "moves": [
+      {
+        "day_number": 7,
+        "description": "François Braun, ministre de la santé, annoncé au CHU de Poitiers."
       }
     ]
   },

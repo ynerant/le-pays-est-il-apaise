@@ -207,7 +207,7 @@
   },
   {
     "index": 3,
-    "subtitle": "Les casseroles classifiées comme armes",
+    "subtitle": "Les casseroles confisquées au titre de la prévention anti-terroriste",
     "events": [
       {
         "description": "La préfecture de l'Hérault interdit le port d'objets sonores portatifs.",
@@ -281,6 +281,59 @@
             "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/e31340ae-2e54-4a7e-a830-74f43a0c8c47/c6ba5d39-7815-4e1f-9dd6-9030bae12083/main.mp4",
             "source_url": "https://www.bfmtv.com/paris/retraites-des-manifestants-investissent-brievement-le-batiment-d-euronext-a-la-defense_AN-202304200507.html",
             "source_text": "Des manifestant⋅es investissent brièvement le bâtiment d'Euronext à la Défense, BFMTV"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "index": 4,
+    "subtitle": "Pas de jalousie pour Elisabeth Borne et Gabriel Attal",
+    "events": [
+      {
+        "description": "Manifestations interdites dans l'Indre pour le déplacement d'Élisabeth Borne, des concerts de casserole malgré tout",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/9285290d-629a-41f4-95b2-60d56d696547/bc9d2959-6b58-45f3-85c1-9308a6a17879/main.mp4",
+            "source_url": "https://www.bfmtv.com/societe/manifestations/indre-des-concerts-de-casseroles-pour-accueillir-elisabeth-borne-a-chateauroux_VN-202304210490.html",
+            "source_text": "Indre : des concerts de casseroles pour accueillir Elisabeth Borne à Châteauroux, BFMTV"
+          },
+          {
+            "type": "link",
+            "link": "https://www.liberation.fr/checknews/contrairement-a-ce-que-pretend-elisabeth-borne-son-deplacement-a-bien-ete-assorti-dinterdictions-de-manifester-20230421_TTKCP3AYYNALRF7T2DDTS5FZ2I/",
+            "text": "Contrairement à ce que prétend Elisabeth Borne, son déplacement a bien été assorti d’interdictions de manifester, CheckNews, Libération"
+          }
+        ]
+      },
+      {
+        "description": "Gabriel Attal en déplacement à Pau, Bruno Le Maire et Christophe Béchu en déplacement dans la Somme, ont aussi droit à leur comité d'accueil. « On ne va pas aller discuter avec des bruits de casseroles »",
+        "media": [
+          {
+            "type": "link",
+            "link": "https://france3-regions.francetvinfo.fr/nouvelle-aquitaine/pyrenees-atlantiques/pau/reforme-des-retraites-une-centaine-de-manifestants-ont-accueilli-gabriel-attal-a-pau-au-son-des-casseroles-2758442.html",
+            "text": "Une centaine de manifestants ont accueilli Gabriel Attal, à Pau, au son des casseroles, France 3 Nouvelle Aquitaine"
+          },
+          {
+            "type": "link",
+            "link": "https://france3-regions.francetvinfo.fr/hauts-de-france/somme/reforme-des-retraites-concert-de-casseroles-pour-la-visite-de-bruno-le-maire-et-christophe-bechu-chez-innovafeed-a-nesle-2758298.html",
+            "text": "Concert de casseroles pour la visite de Bruno Le Maire et Christophe Béchu chez Innovafeed à Nesle, France 3 Hauts-de-France"
+          },
+          {
+            "type": "youtube",
+            "code": "y9w_hCHOnX0",
+            "text": "Gabriel Attal, sur Europe 1, refusant de dialoguer"
+          }
+        ]
+      },
+      {
+        "description": "La défenseure des droits juge que la France n'est pas dans une désescalade de la violence",
+        "media": [
+          {
+            "type": "video",
+            "link": "https://bcboltnexti1-a.akamaihd.net/media/v1/pmp4/static/clear/876450610001/88c297e7-36fe-479c-aaeb-e1d8bc0833c1/26a0b880-d39e-4ec5-a053-0963920297ab/main.mp4",
+            "source_url": "https://www.bfmtv.com/police-justice/maintien-de-l-ordre-la-defenseure-des-droits-regrette-que-la-france-ne-soit-pas-dans-une-desescalade-de-la-violence_AV-202304210316.html",
+            "source_text": "Maintien de l'ordre : la Défenseure des droits regrette que la France ne soit pas dans « une désescalade de la violence », BFMTV"
           }
         ]
       }
